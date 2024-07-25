@@ -249,11 +249,10 @@ nav ul li a{
 /* banner section style end*/
 
 /* main style start */
-main{
-  margin: 0 134px;
-}
+
 
 main>section{
+  margin: 0 134px;
   margin-bottom: 70px;
 }
 
@@ -309,7 +308,7 @@ main>section{
   align-items: center;
   justify-content: center;
   background-color: #222222;
-  column-gap: 130px;
+  column-gap: 150px;
   border-radius: 16px;
   padding: 30px 50px;
 }
@@ -331,7 +330,7 @@ main>section{
 }
 
 #run-extra .section-img{
-  width:34%;
+  width:35%;
 }
 
 #run-extra .section-img img{
@@ -535,11 +534,10 @@ footer .copyright-txt p span{
 }
 
 /* main style start */
-main{
-  margin: 0 20px;
-}
+
 
 main>section{
+  margin: 0 20px;
   margin-bottom: 70px;
 }
 
