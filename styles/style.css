@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", 'Miama', sans-serif;
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -165,7 +165,7 @@ nav ul li a{
 
 #banner .section-txt h1 span{
   font-family:Miama;
-  font-size: 5rem;
+  font-size: 6.5rem;
   font-weight: 400;
   word-spacing: 3px;
   line-height: 50%;
@@ -793,4 +793,26 @@ footer .container .heading-txt {
 
 
 
+}
+
+
+
+@media screen and (max-width: 375px) {
+  .btn {
+    padding: 12px 16px;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+#banner .section-txt .cta-btn .btn-secondary {
+  padding: 11px 15px;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+
+#meet-our-team .team-items .team-member {
+  width: 295px;
+  height: 240px;
+}
 }
