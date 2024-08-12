@@ -14,14 +14,14 @@
         <h3 class="primary-color">PulseFit</h3>
       </a>
 
-      <div class="nav-icon">
+      <div class="nav-icon" onclick="navOpenClose()">
         <span></span>
         <span></span>
         <span></span>
         <span></span>
       </div>
 
-      <ul class="d-flex">
+      <ul class="d-flex " id="nav-items">
         <li class="nav-item">
           <a href="" class="active txt-color nav-link">Home</a>
         </li>
@@ -296,5 +296,16 @@
       <p class="description txt-center">&copy;2024 | All right reserved <span class="description">@PulseFit</span>.</p>
     </div>
   </footer>
+
+
+  <script>
+    
+    function navOpenClose() {
+      const navItems = document.getElementById("nav-items");
+      const navParent = navItems.parentElement;
+  
+      navParent.classList.toggle("nav-open");
+    }
+  </script>
 </body>
 </html>
