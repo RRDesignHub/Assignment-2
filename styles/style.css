@@ -1051,3 +1051,37 @@ footer .container .heading-txt {
   font-size: 0.8rem;
 }
 }
+
+
+@media screen and (max-width: 320px){
+      .btn {
+        padding: 8px 12px;
+        border-radius: 20px;
+        font-size: 0.8rem;
+    }
+
+        #banner .section-txt .cta-btn .btn-secondary {
+        padding: 7px 13px;
+        border-radius: 20px;
+        font-size: 0.8rem;
+    }
+
+    #banner .section-txt h1 {
+    font-size: 2.5rem;
+}
+
+#banner .section-txt h1 span {
+    font-size: 3.5rem;
+}
+
+
+    #bmi-calculator .bmi-inner .container .form form input[type="submit"] {
+        padding: 8px 20px;
+        border-radius: 20px;
+    }
+
+        #meet-our-team .team-items .team-member {
+        width: 260px;
+        height: 210px;
+    }
+}

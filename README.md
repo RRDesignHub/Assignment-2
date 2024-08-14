@@ -11,3 +11,6 @@ This is the second assignment in the course path. This site is designed for mult
   5. BMI Calculator
   6. Our Team
   7. Footer (with important link)
+
+## Chalange section:
+  8. Blog part.
