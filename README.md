@@ -12,5 +12,5 @@ This is the second assignment in the course path. This site is designed for mult
   6. Our Team
   7. Footer (with important link)
 
-## Chalange section:
+## Challenge section:
   8. Blog part.
